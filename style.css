@@ -7,7 +7,6 @@
       height: 100%;
       width: 100%;
     }
-
     .google-button {
       width: 40px;
       height: 40px;
@@ -25,12 +24,10 @@
       right: 5px;
       z-index: 1000;
     }
-
     .google-button span {
       color: white; 
       font-size: 20px; 
     }
-
     .google-button:hover, .google-button span:hover {
       background-color: #ffffff;
       color: #000;
