@@ -3,10 +3,12 @@
       padding: 0;
       box-sizing: border-box;
     }
+
     html, body {
       height: 100%;
       width: 100%;
     }
+
     .google-button {
       width: 40px;
       height: 40px;
@@ -24,12 +26,17 @@
       right: 5px;
       z-index: 1000;
     }
+
     .google-button span {
       color: white; 
       font-size: 20px; 
     }
-    .google-button:hover, .google-button span:hover {
+
+    .google-button.active {
       background-color: #ffffff;
-      color: #000;
       transform: scale(1.1); 
+    }
+
+    .google-button.active span {
+      color: #000; 
     }
